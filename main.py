@@ -14,7 +14,7 @@ warnings.filterwarnings('ignore')
 
 if __name__ == "__main__":
     
-    engine = create_engine('postgresql+psycopg2://postgres:postgres@localhost/digitalskola')
+    engine = create_engine('postgresql+psycopg2://postgres:12345@localhost/digitalskola')
 
     path = os.getcwd()+"\\"
     path_data = path+"data"+"\\"
